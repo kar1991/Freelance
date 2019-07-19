@@ -1,0 +1,184 @@
+body{font-family: 'Noto Sans', sans-serif; font-size:1rem;background: #f1f0f0; border-radius: 7px !important;overflow-x: hidden !important;}
+.bg-color{background-color: #072c94!important; }
+.navbar-nav{ margin: 0 auto; font-size: 25px}
+.image{ border: 1px solid #ccc;border-radius: 50%;width: 85px;height:85px;}
+.image-common{ width:45px; height:45px;margin: 10px auto;}
+.task h6{font-weight: 700;}
+.task ul li h6{ font-size: 17px;margin: 10px 0 0 10px;}
+.task{border-radius: 7px !important;}
+.task .text{ margin-bottom: 10px;}
+.name{ width: 80%;display: flex;float: left;text-align: center;margin: 0rem 0;}
+.name .name_1{z-index: 1;width: 45px;height: 45px;border-radius: 50%;background: #000;position: relative;top: 13px;color: #fff;text-align: center;margin: 0rem 0;vertical-align: middle;font-size: 22px;}
+ul{ list-style: none}
+.timings .icon{ width: 45px;height: 45px;border-radius: 50%;background:#ffc10780;position: relative;}
+.timings .icon .fa-caret-right{ position: absolute;left: 1.2rem;top: 0.5rem;font-size: 33px;color: #FFC107;}
+.timings .icon .fa-check-circle{ position: absolute;left: 0.7rem;top: 0.7rem;font-size:25px;color: #FFC107;}
+.name .text{ position: relative; top:0.3rem;}
+.dot1{width: 15px;height: 15px;border-radius: 50%;background: #f4749e;margin-top:1.3rem;}
+.dot2{width: 15px;height: 15px;border-radius: 50%;background: #31c9a7;margin-top:1.3rem;margin-left: 1rem}
+.closures li{text-align: center;}
+.closures .converted{margin: 9px 8rem; }
+.closures .rejected{margin: 9px 1em; }
+.content-1{ background: #7fffd469;border-radius:10px;}
+.content-1 ul li span h3{ margin-left: 0rem;}
+.content-1 ul li h6 span{ margin-left: 0rem;font-size: 13px;font-weight: 900;margin-left: 6px;}
+.content-1 ul li p{ margin-left: 0rem;}
+.content-1 .image-1 li span img{ width:45px; height: 45px;}
+.content-1 ul li .text-2{position: absolute;right: 11rem;text-align: center;margin-top: .5rem;font-size: 19px;color: #fff;}
+footer{ margin-top: 1.3rem;background: #cccccc87; padding: 1.5rem;}
+footer ul li span img{width: 50px;height: 50px !important;margin: 0 1.5rem;justify-content: center;position: relative;left: 20rem;}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px)and (-webkit-min-device-pixel-ratio: 2) {
+     body{ overflow-x: hidden !important;}
+    .row{ margin: 0px !important;}
+    .navbar-nav {font-size: 21px;text-align: center;} 
+    .navbar-nav .nav-link{text-align: center;margin: 0 auto;position: relative;left: 29px;} 
+    .form-inline{position: relative;left: 0rem;}
+    .form-inline .first-img{position: relative;right: 11px;width: 20%!important;left: 64px; }
+    .form-inline .second-img{width: 20%!important;position: relative;left: 76px; }
+    .closures li .closure{font-size: 16px;margin-top: 4px; }
+    .closures li .average{font-size: 18px;margin-left: 28px; }
+    .image{border: 1px solid #ccc;border-radius: 50%;width: 100px;height: 70px;}
+    .image img{ margin-left: 0px !important}
+    .text-3 p span{margin-top: 0px !important; }
+    footer ul li span img {left:0rem;position:relative;margin: 0 1rem;}
+    .header li img{ width:70px;}
+    .content-1 ul li .text-2 {position: absolute;right: 2rem;top: 11rem;text-align: center;margin-top: .5rem;font-size: 19px;color: #fff;}
+    footer { margin-top: 1.3rem;background: #cccccc87;padding: 1rem;}
+    .task h6{font-weight: 700;}
+    .task ul li h6{ font-size: 17px;margin: 20px 0 0 10px;}
+    .task ul .high{margin: 10px 0 0 10px; }
+    .task ul .medium{margin: 10px 0 0 -95px; }
+    .timings .time{position: relative;right: 1rem; }
+    .image-2 li span .img1{ position: absolute; right: -1rem;}
+    .image-2 li span .img2{ position: absolute; right: 3rem;}
+    .ecard{ width:90%; margin-left: 15px;}
+    .ecard ul .cal{ margin-left: 9rem}
+    .bg-color-1{ background-color: #03a9f430!important;}
+    .task .text{ margin-bottom: 10px;}
+    .ecard-1 .nav .nav-item .nav-link .bg-width{ width:4rem;}
+    .header li .text-2{ position: absolute; top:19rem;}
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) { 
+    body{ overflow-x: hidden !important;}
+    .row{ margin: 0px !important;}
+    .navbar-nav {font-size: 21px;text-align: center;} 
+    .navbar-nav .nav-link{text-align: center;margin: 0 auto;position: relative;left: 29px;} 
+    .form-inline{position: relative;left: 0rem;}
+    .form-inline .first-img{position: relative;right: 11px;width: 20%!important;left: 64px; }
+    .form-inline .second-img{width: 20%!important;position: relative;left: 76px; }
+    .closures li .closure{font-size: 16px;margin-top: 4px; }
+    .closures li .average{font-size: 18px;margin-left: 28px; }
+    .image{border: 1px solid #ccc;border-radius: 50%;width: 100px;height: 70px;}
+    .image img{ margin-left: 0px !important}
+    .text-3 p span{margin-top: 0px !important; }
+    footer ul li span img {left:0rem;position:relative;margin: 0 1rem;}
+    .header li img{ width:70px;}
+    .content-1 ul li .text-2 {position: absolute;right: 2rem;top: 11rem;text-align: center;margin-top: .5rem;font-size: 19px;color: #fff;}
+    footer { margin-top: 1.3rem;background: #cccccc87;padding: 1rem;}
+    .task h6{font-weight: 700;}
+    .task ul li h6{ font-size: 17px;margin: 20px 0 0 10px;}
+    .task ul .high{margin: 10px 0 0 10px; }
+    .task ul .medium{margin: 10px 0 0 -95px; }
+    .timings .time{position: relative;right: 1rem; }
+    .image-2 li span .img1{ position: absolute; right: -1rem;}
+    .image-2 li span .img2{ position: absolute; right: 3rem;}
+    .ecard{ width:90%; margin-left: 15px;}
+    .ecard ul .cal{ margin-left: 9rem}
+    .bg-color-1{ background-color: #03a9f430!important;}
+    .task .text{ margin-bottom: 10px;}
+    .ecard-1 .nav .nav-item .nav-link .bg-width{ width:4rem;}
+    .header li .text-2{ position: absolute; top:19rem;}
+
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) { 
+     body{ overflow-x: hidden !important;}
+    .row{ margin: 0px !important;}
+    .navbar-nav {font-size: 21px;text-align: center;} 
+    .navbar-nav .nav-link{text-align: center;margin: 0 auto;position: relative;left: 29px;} 
+    .form-inline{position: relative;left: 0rem;}
+    .form-inline .first-img{position: relative;right: 11px;width: 20%!important;left: 64px; }
+    .form-inline .second-img{width: 20%!important;position: relative;left: 76px; }
+    .closures li .closure{font-size: 16px;margin-top: 4px; }
+    .closures li .average{font-size: 18px;margin-left: 28px; }
+    .image{border: 1px solid #ccc;border-radius: 50%;width: 100px;height: 70px;}
+    .image img{ margin-left: 0px !important}
+    .text-3 p span{margin-top: 0px !important; }
+    footer ul li span img {left:0rem;position:relative;margin: 0 1rem;}
+    .header li img{ width:70px;}
+    .content-1 ul li .text-2 {position: absolute;right: 2rem;top: 11rem;text-align: center;margin-top: .5rem;font-size: 19px;color: #fff;}
+    footer { margin-top: 1.3rem;background: #cccccc87;padding: 1rem;}
+    .task h6{font-weight: 700;}
+    .task ul li h6{ font-size: 17px;margin: 20px 0 0 10px;}
+    .task ul .high{margin: 10px 0 0 10px; }
+    .task ul .medium{margin: 10px 0 0 -95px; }
+    .timings .time{position: relative;right: 1rem; }
+    .image-2 li span .img1{ position: absolute; right: -1rem;}
+    .image-2 li span .img2{ position: absolute; right: 3rem;}
+    .ecard{ width:90%; margin-left: 15px;}
+    .ecard ul .cal{ margin-left: 9rem}
+    .bg-color-1{ background-color: #03a9f430!important;}
+    .task .text{ margin-bottom: 10px;}
+    .ecard-1 .nav .nav-item .nav-link .bg-width{ width:4rem;}
+    .header li .text-2{ position: absolute; top:19rem;}
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) { 
+    body{ overflow-x: hidden !important;}
+    .row{ margin: 0px !important;}
+    .navbar-nav {font-size: 21px;text-align: center;} 
+    .navbar-nav .nav-link{text-align: center;margin: 0 auto;position: relative;left: 29px;} 
+    .form-inline{position: relative;left: 0rem;}
+    .form-inline .first-img{position: relative;right: 11px;width: 20%!important;left: 64px; }
+    .form-inline .second-img{width: 20%!important;position: relative;left: 76px; }
+    .closures li .closure{font-size: 16px;margin-top: 4px; }
+    .closures li .average{font-size: 18px;margin-left: 28px; }
+    .image{border: 1px solid #ccc;border-radius: 50%;width: 100px;height: 70px;}
+    .image img{ margin-left: 0px !important}
+    .text-3 p span{margin-top: 0px !important; }
+    footer ul li span img {left:0rem;position:relative;margin: 0 1rem;}
+    .header li img{ width:70px;}
+    .header li .text-2{ position: absolute; top:19rem;}
+    .content-1 ul li .text-2 {position: absolute;right: 2rem;top: 11rem;text-align: center;margin-top: .5rem;font-size: 19px;color: #fff;}
+    footer { margin-top: 1.3rem;background: #cccccc87;padding: 1rem;}
+    .task h6{font-weight: 700;}
+    .task ul li h6{ font-size: 17px;margin: 20px 0 0 10px;}
+    .task ul .high{margin: 10px 0 0 10px; }
+    .task ul .medium{margin: 10px 0 0 -95px; }
+    .timings .time{position: relative;right: 1rem; }
+    .image-2 li span .img1{ position: absolute; right: -1rem;}
+    .image-2 li span .img2{ position: absolute; right: 3rem;}
+    .ecard{ width:90%; margin-left: 15px;}
+    .ecard ul .cal{ margin-left: 9rem}
+    .bg-color-1{ background-color: #03a9f430!important;}
+    .task .text{ margin-bottom: 10px;}
+    .ecard-1 .nav .nav-item .nav-link .bg-width{ width:4rem;}
+}
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
+    body{ overflow-x: hidden !important;}
+    .row{ margin: 0px !important;}
+    .navbar-nav {font-size: 21px;text-align: center;width: 25%;} 
+    .navbar-nav .nav-link{text-align: center;margin: 0 auto;position: relative;left: 29px;} 
+    .form-inline{position: relative;left: 0rem;}
+    .form-inline .first-img{position: relative;right: 11px;width: 20%!important;left: 64px; }
+    .form-inline .second-img{width: 20%!important;position: relative;left: 76px; }
+    .closures li .closure{font-size: 12px;margin-top: 4px; }
+    .closures li .average{font-size: 15px;margin-left: 28px; }
+    .image{border: 1px solid #ccc;border-radius: 50%;width: 100px;height: 70px;}
+    .image img{ margin-left: 0px !important}
+    .text-3 p span{margin-top: 0px !important; }
+    .closures-1{}
+    .closures-1 .open{margin-left: 16px;}
+    .closures-1 .contacted{margin-left: 21px;}
+    .closures-1 .rejected{margin-left: 2px;}
+    .closures-1 .converted{margin-left: 2px;}
+    footer ul li span img {left:0rem;position:relative;margin: 0 1rem;}
+    .header li img{ width:70px;}
+    .content-1 ul li .text-2 {position: absolute;right: 2rem;top: 11rem;text-align: center;margin-top: .5rem;font-size: 19px;color: #fff;}
+    .name{ width: 77%;}
+    footer { margin-top: 1.3rem;background: #cccccc87;padding: 1rem;}
+
+}
