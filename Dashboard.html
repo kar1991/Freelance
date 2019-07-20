@@ -11,7 +11,7 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-color">
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-color">
   <a class="navbar-brand" href="#"><img class="img-fluid w-50" src="assets/ICONS/menu.svg"/></a>
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
@@ -27,16 +27,16 @@
 <div class="container-fluid p-0">
     <div class="row">
         <div class="col-12 col-sm-12 col-md-12 p-2">
-           <div class="card rounded mt-4">
-               <div class="card-body">
+           <div class="card rounded ecard-2">
+               <div class="card-body p-0">
                   <div class="d-flex flex-row p-3">
                       <div class="p-2 image">
                           <picture type="image/svg+xml">
-                         <img class="img-fluid ml-2" src="assets/ICONS/cup.svg"/>
+                         <img class="img-fluid ml-2 image-common" src="assets/ICONS/cup.svg"/>
                         </picture>
                       </div>
                       <div class="p-2 text-3">
-                        <h5 class="ml-3"><span>Hello, Mr.Enon Ninja you have 3 assigned tasks today.</span></h5>
+                        <h6 class="ml-3 mt-2"><span><b>Hello, Mr.Enon Ninja you have 3 assigned tasks today.</b></span></h6>
                       </div>
                    </div>
                </div>
@@ -49,7 +49,7 @@
 <div class="container-fluid p-0">
     <div class="row">
         <div class="col-4 p-2">
-           <div class="card task rounded mt-4">
+           <div class="card task rounded">
                 <img src="assets/ICONS/noun_tick_1348367.svg" class="card-img-top image-common" alt="..."> 
                <div class="card-body text-center p-0">
                    <h6 class="card-title">Task</h6>
@@ -58,7 +58,7 @@
                </div>
             </div>
         <div class="col-4 p-2">
-           <div class="card task rounded mt-4">
+           <div class="card task rounded">
                <img src="assets/ICONS/noun_notification_867351.svg" class="card-img-top image-common" alt="...">
               <div class="card-body text-center p-0">
                    <h6 class="card-title">Notification</h6>
@@ -67,7 +67,7 @@
             </div>
         </div>
         <div class="col-4 p-2">
-           <div class="card task rounded mt-4">
+           <div class="card task rounded">
                <img src="assets/ICONS/Group 7.svg" class="card-img-top image-common" alt="...">
                <div class="card-body text-center p-0">
                    <h6 class="card-title">Apointment</h6>
@@ -82,7 +82,7 @@
     <div class="container-fluid p-0">
         <div class="row">
             <div class="col-6 col-sm-6 col-md-6 p-2">
-                <div class="card task mt-4">
+                <div class="card task">
                      <div class="card-header border-0 bg-transparent p-0">
                          <ul class="list-group list-group-horizontal">
                             <li class="d-flex float-left"><h6 class="card-title">Up Next</h6></li>
@@ -105,7 +105,7 @@
                 </div>
             </div>
              <div class="col-6 col-sm-6 col-md-6 p-2">
-                <div class="card task mt-4">
+                <div class="card task">
                      <div class="card-header border-0 bg-transparent p-0">
                          <ul class="list-group list-group-horizontal">
                             <li class="w-100 d-flex float-left"></li>
@@ -134,7 +134,7 @@
     <div class="container-fluid p-0">
         <div class="row">
             <div class="col-12 col-sm-12 col-md-12 p-2">
-                <div class="card timeline mt-4">
+                <div class="card timeline">
                     <div class="card-header border-0 bg-transparent">
                         <ul class="list-group list-group-horizontal">
                             <li class="w-100 d-flex float-left"><h3>Day Plan</h3></li>
@@ -157,65 +157,11 @@
         </div>
     </div>
 </section>
-<section id="closingtime">
-    <div class="container fluid p-0">
-        <div class="row">
-            <div class="col-12 col-sm-12 col-md-12 p-2">
-               <div class="card closingtime mt-4">
-                   <div class="card-header bg-transparent border-0">
-                       <ul class="list-group list-group-horizontal closures">
-                            <li class="list-group-item border-0"><h4 class="closure">265 Closures</h4></li>
-                            <li class="list-group-item border-0"><h6 class="average">Average closing Time 5 days</h6></li>
-                          </ul>
-                       <div class="card-body p-0 ecard-1">
-                           <ul class="nav nav-pills nav-fill" id="myTab" role="tablist">
-                              <li class="nav-item">
-                                 <a class="nav-link bg-transparent p-0" href="#open" data-toggle="tab" role="tab" aria-controls="home" aria-selected="false"><button type="button" class="btn btn-secondary bg-width"></button></a>
-                             </li>
-                             <li class="nav-item">
-                                <a class="nav-link bg-transparent p-0" href="#contacted" data-toggle="tab" role="tab" aria-controls="home" aria-selected="false"><button type="button" class="btn btn-secondary bg-width"></button></a>
-                             </li>
-                             <li class="nav-item">
-                                <a class="nav-link bg-transparent p-0" href="#rejected" data-toggle="tab" role="tab" aria-controls="home" aria-selected="false"><button type="button" class="btn btn-secondary bg-width"></button></a>
-                             </li>
-                             <li class="nav-item">
-                               <a class="nav-link active bg-transparent p-0" href="#converted" tabindex="-1" data-toggle="tab" role="tab" aria-controls="home" aria-selected="true"><button type="button" class="btn btn-success bg-width"></button></a>
-                             </li>
-                           </ul>
-                           <div class="tab-content" id="myTabContent">
-                               <div class="tab-pane fade show" id="open" role="tabpanel" aria-labelledby="home-tab">
-                                  <p class="lead">
-                                   Open
-                                   </p>
-                               </div>
-                               <div class="tab-pane fade show" id="contacted" role="tabpanel" aria-labelledby="home-tab">
-                                  <p class="lead">
-                                   Contacted
-                                   </p>
-                               </div>
-                               <div class="tab-pane fade show" id="rejected" role="tabpanel" aria-labelledby="home-tab">
-                                  <p class="lead">
-                                   Rejected
-                                   </p>
-                               </div>
-                               <div class="tab-pane fade show active" id="converted" role="tabpanel" aria-labelledby="home-tab">
-                                  <p class="lead">
-                                  Converted
-                                   </p>
-                               </div>
-                          </div>
-                       </div>
-                   </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 <section id="suggestedactions">
 <div class="container-fluid p-0">
     <div class="row">
         <div class="col-12 col-sm-12 col-md-12 p-2">
-            <div class="card suggestedactions mt-4">
+            <div class="card suggestedactions">
                 <div class="card-header bg-transparent border-0">
                    <h5><span>Suggested Actions</span></h5>
                 </div>
