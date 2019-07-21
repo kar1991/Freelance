@@ -9,7 +9,7 @@ body{font-family: 'Lato', sans-serif; font-size:1rem;background: #f1f0f0; border
 .task .text{ margin-bottom: 10px;}
 .ecard-2{ width:100%;height:73px; }
 .name{ width: 80%;display: flex;float: left;text-align: center;margin: 0rem 0;}
-.name .name_1{z-index: 1;width: 45px;height: 45px;border-radius: 50%;background: #000;position: relative;top:0px;color: #fff;text-align: center;margin: 0rem 0;vertical-align: middle;font-size: 22px;}
+.name .name_1{z-index: 1;width: 35px;height: 35px;border-radius: 50%;background: #000;position: relative;top:0px;color: #fff;text-align: center;margin: 0rem 0;vertical-align: middle;font-size: 16px;}
 ul{ list-style: none}
 .timings .icon{width: 26px;height: 26px;border-radius:50%;background:#b9e9de;position:relative;}
 .timings .icon .fa-caret-right{ position: absolute;left: 1.2rem;top: 0.5rem;font-size: 33px;color: #FFC107;}
@@ -41,7 +41,7 @@ footer ul li span img{width: 50px;height: 50px !important;margin: 0 1.5rem;justi
     .closures li .closure{font-size: 16px;margin-top: 4px; }
     .closures li .average{font-size: 18px;margin-left: 28px; }
   .image{border: .5px solid #979797;border-radius: 50%;width: 56px;height: 45px;margin-top: -5px;}
-    .image img{ margin-left: 1px !important;margin-top: -3px;width: 30px;height: 28px;}
+    .image img{ margin-left: 1px !important;margin-top: -3px;width: 30px;height: 30px;}
     .text-3{ margin-top: -20px}
     .text-3 h6 span{ color: #979797;line-height: 19.5px;position: relative;top: 6px; }
     footer ul li span img {left:-1rem;position:relative;margin: 0px 1.5rem;width:30px; height:30px !important;top: -11px;}
@@ -88,6 +88,7 @@ footer ul li span img{width: 50px;height: 50px !important;margin: 0 1.5rem;justi
 	.suggestedactions{ border-radius:10px;}
 	.timings .icon .fa-caret-right{ position: absolute;left: 1.2rem;top: 0.5rem;font-size: 33px;color: #FFC107;}
     .timings .icon .fa-check-circle{ position: absolute;left: 0.4rem;top: 0.4rem;color: #28b595;font-size:14px}
+	.name .name_1{z-index: 1;width: 35px;height: 35px;border-radius: 50%;background: #000;position: relative;top:0px;color: #fff;text-align: center;margin: 0rem 0;vertical-align: middle;font-size: 16px;}
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) { 
@@ -102,7 +103,7 @@ footer ul li span img{width: 50px;height: 50px !important;margin: 0 1.5rem;justi
     .closures li .closure{font-size: 16px;margin-top: 4px; }
     .closures li .average{font-size: 18px;margin-left: 28px; }
   .image{border: .5px solid #979797;border-radius: 50%;width: 56px;height: 45px;margin-top: -5px;}
-    .image img{ margin-left: 1px !important;margin-top: -3px;width: 30px;height: 28px;}
+    .image img{ margin-left: 1px !important;margin-top: -3px;width: 30px;height: 30px;}
     .text-3{ margin-top: -20px}
     .text-3 h6 span{ color: #979797;line-height: 19.5px;position: relative;top: 6px; }
     footer ul li span img {left:-1rem;position:relative;margin: 0px 1.5rem;width:30px; height:30px !important;top: -11px;}
@@ -149,6 +150,7 @@ footer ul li span img{width: 50px;height: 50px !important;margin: 0 1.5rem;justi
 	.suggestedactions{ border-radius:10px;}
 	.timings .icon .fa-caret-right{ position: absolute;left: 1.2rem;top: 0.5rem;font-size: 33px;color: #FFC107;}
     .timings .icon .fa-check-circle{ position: absolute;left: 0.4rem;top: 0.4rem;color: #28b595;font-size:14px}
+	.name .name_1{z-index: 1;width: 35px;height: 35px;border-radius: 50%;background: #000;position: relative;top:0px;color: #fff;text-align: center;margin: 0rem 0;vertical-align: middle;font-size: 16px;}
 }
 
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) { 
@@ -163,7 +165,7 @@ footer ul li span img{width: 50px;height: 50px !important;margin: 0 1.5rem;justi
     .closures li .closure{font-size: 16px;margin-top: 4px; }
     .closures li .average{font-size: 18px;margin-left: 28px; }
   .image{border: .5px solid #979797;border-radius: 50%;width: 56px;height: 45px;margin-top: -5px;}
-    .image img{ margin-left: 1px !important;margin-top: -3px;width: 30px;height: 28px;}
+   .image img{ margin-left: 1px !important;margin-top: -3px;width: 30px;height: 30px;}
     .text-3{ margin-top: -20px}
     .text-3 h6 span{ color: #979797;line-height: 19.5px;position: relative;top: 6px; }
     footer ul li span img {left:-1rem;position:relative;margin: 0px 1.5rem;width:30px; height:30px !important;top: -11px;}
@@ -210,6 +212,7 @@ footer ul li span img{width: 50px;height: 50px !important;margin: 0 1.5rem;justi
 	.suggestedactions{ border-radius:10px;}
 	.timings .icon .fa-caret-right{ position: absolute;left: 1.2rem;top: 0.5rem;font-size: 33px;color: #FFC107;}
     .timings .icon .fa-check-circle{ position: absolute;left: 0.4rem;top: 0.4rem;color: #28b595;font-size:14px}
+	.name .name_1{z-index: 1;width: 35px;height: 35px;border-radius: 50%;background: #000;position: relative;top:0px;color: #fff;text-align: center;margin: 0rem 0;vertical-align: middle;font-size: 16px;}
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) { 
@@ -224,7 +227,7 @@ footer ul li span img{width: 50px;height: 50px !important;margin: 0 1.5rem;justi
     .closures li .closure{font-size: 16px;margin-top: 4px; }
     .closures li .average{font-size: 18px;margin-left: 28px; }
   .image{border: .5px solid #979797;border-radius: 50%;width: 56px;height: 45px;margin-top: -5px;}
-    .image img{ margin-left: 1px !important;margin-top: -3px;width: 30px;height: 28px;}
+    .image img{ margin-left: 1px !important;margin-top: -3px;width: 30px;height: 30px;}
     .text-3{ margin-top: -20px}
     .text-3 h6 span{ color: #979797;line-height: 19.5px;position: relative;top: 6px; }
     footer ul li span img {left:-1rem;position:relative;margin: 0px 1.5rem;width:30px; height:30px !important;top: -11px;}
@@ -271,6 +274,7 @@ footer ul li span img{width: 50px;height: 50px !important;margin: 0 1.5rem;justi
 	.suggestedactions{ border-radius:10px;}
 	.timings .icon .fa-caret-right{ position: absolute;left: 1.2rem;top: 0.5rem;font-size: 33px;color: #FFC107;}
     .timings .icon .fa-check-circle{ position: absolute;left: 0.4rem;top: 0.4rem;color: #28b595;font-size:14px}
+	.name .name_1{z-index: 1;width: 35px;height: 35px;border-radius: 50%;background: #000;position: relative;top:0px;color: #fff;text-align: center;margin: 0rem 0;vertical-align: middle;font-size: 16px;}
 }
 
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
@@ -285,7 +289,7 @@ footer ul li span img{width: 50px;height: 50px !important;margin: 0 1.5rem;justi
     .closures li .closure{font-size: 16px;margin-top: 4px; }
     .closures li .average{font-size: 18px;margin-left: 28px; }
   .image{border: .5px solid #979797;border-radius: 50%;width: 56px;height: 45px;margin-top: -5px;}
-    .image img{ margin-left: 1px !important;margin-top: -3px;width: 30px;height: 28px;}
+    .image img{ margin-left: 1px !important;margin-top: -3px;width: 30px;height: 30px;}
     .text-3{ margin-top: -20px}
     .text-3 h6 span{ color: #979797;line-height: 19.5px;position: relative;top: 6px; }
     footer ul li span img {left:-1rem;position:relative;margin: 0px 1.5rem;width:30px; height:30px !important;top: -11px;}
@@ -332,4 +336,5 @@ footer ul li span img{width: 50px;height: 50px !important;margin: 0 1.5rem;justi
 	.suggestedactions{ border-radius:10px;}
 	.timings .icon .fa-caret-right{ position: absolute;left: 1.2rem;top: 0.5rem;font-size: 33px;color: #FFC107;}
     .timings .icon .fa-check-circle{ position: absolute;left: 0.4rem;top: 0.4rem;color: #28b595;font-size:14px}
+	.name .name_1{z-index: 1;width: 35px;height: 35px;border-radius: 50%;background: #000;position: relative;top:0px;color: #fff;text-align: center;margin: 0rem 0;vertical-align: middle;font-size: 16px;}
 }
