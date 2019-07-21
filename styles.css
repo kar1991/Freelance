@@ -1,5 +1,5 @@
 body{font-family: 'Noto Sans', sans-serif; font-size:1rem;background: #f1f0f0; border-radius: 7px !important;overflow-x: hidden !important;}
-.bg-color{background-color: #1f2c78!important;height: 42px !important; }
+.bg-color{background-color: #1f2c78!important;height: 42px !important;}
 .navbar-nav{ margin: 0 auto; font-size: 25px}
 .image{ border: 1px solid #ccc;border-radius: 50%;width: 85px;height:85px;}
 .image-common{ width:45px; height:45px;margin: 10px auto;}
@@ -31,7 +31,7 @@ footer ul li span img{width: 50px;height: 50px !important;margin: 0 1.5rem;justi
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px)and (-webkit-min-device-pixel-ratio: 2) {
      body{ overflow-x: hidden !important;}
-	.bg-color{background-color: #1f2c78!important;height: 42px !important; }
+	.bg-color{background-color: #1f2c78!important;height: 42px !important;}
     .row{ margin: 0px !important;}
     .navbar-nav {font-size: 21px;text-align: center;} 
     .navbar-nav .nav-link{text-align: center;margin: 0 auto;position: relative;left: 0px;top: -10px;font-size: 17px}
@@ -93,7 +93,7 @@ footer ul li span img{width: 50px;height: 50px !important;margin: 0 1.5rem;justi
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) { 
     body{ overflow-x: hidden !important;}
-	.bg-color{background-color: #1f2c78!important;height: 42px !important; }
+	.bg-color{background-color: #1f2c78!important;height: 42px !important;}
     .row{ margin: 0px !important;}
     .navbar-nav {font-size: 21px;text-align: center;} 
     .navbar-nav .nav-link{text-align: center;margin: 0 auto;position: relative;left: 0px;top: -10px;font-size: 17px}
